@@ -1,0 +1,132 @@
+body {
+  font-family: sans-serif, Arial;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ ul{
+  margin:0;
+  padding:0;
+}
+
+.logo{
+  display:inline-block;
+  height:60px;
+  width:60px;
+  float:left;
+  background: url('../images/logo.png') no-repeat;
+  margin-top:0px;
+}
+
+header{
+  background:#ffffff;
+  color:#000000;
+  padding-top:10px;
+  min-height:70px;
+}
+
+header a{
+  color:#000000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:14px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header nav{
+  float:right;
+  margin-top:25px;
+}
+
+header a.active{
+  color: #97627C;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#F7E3EC;
+  font-weight:bold;
+}
+
+/* Home */
+#home{
+  min-height:660px;
+  text-align:center;
+  color:#000000;
+  background:url('../images/show.png') no-repeat;
+  background-position:right;
+  background-position-y:35%;
+  background-position-x:85%;
+  background-size:550px;
+}
+
+@media screen and (max-width: 1000px) {
+  #home {
+    background-image:none;
+  }
+}
+
+#home h1{
+  margin-top:150px;
+  font-size:75px;
+  margin-bottom:12px;
+}
+
+#home h1 .home-highlight{
+  color: #97627C;
+}
+
+#home p{
+  font-size:14px;
+  font-style: normal;
+}
+/*Profile*/
+#profile{
+  min-height:800px;
+  background-color:#F7E3EC;
+}
+
+
+
+/* Projects */
+
+#projects{
+  min-height: 800px;
+  background-color: #000000;
+}
+
+#projects h3{
+  color: #ffffff;
+}
+
+#projects .project{
+  float:left;
+  text-align:center;
+  padding: 50px 15px 15px 15px;
+}
+
+#projects .project img{
+  width": 100px;
+}
+
+footer{
+  padding:5px;
+  color:#97627C;
+  background-color: #ffffff;
+  text-align:center;
+}
